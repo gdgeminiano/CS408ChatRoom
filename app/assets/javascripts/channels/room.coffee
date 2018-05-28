@@ -9,6 +9,7 @@ App.room = App.cable.subscriptions.create "RoomChannel",
   received: (data) ->
     # Called when there's incoming data on the websocket for this channel
     # When a message is recieved add it to the database of messages
+    # Rails renders the html for data
     $('#messages').append data
     $('#messages').scrollTop $('#messages').prop('scrollHeight')
 
