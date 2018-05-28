@@ -1,11 +1,18 @@
+<!--Frontend for rooms_controller show method-->
+<!--HTML to display chat room-->
+
+<!--Header Title: CS 408 Chat Room-->
 <div class="header">
   <div class="room">CS 408 Chat Room</div>
 </div>
 
+<!--Display all messages-->
 <div class="message-history" id="messages">
    <%= render @messages %>
  </div>
 </div>
+
+<!--Footer: display user and text box-->
 <div class="footer">
   <div class="user-menu">
     <span class="user-menu_profile-pic"></span><span class="user-menu_username"><%= current_user.email %></span>

@@ -1,10 +1,14 @@
+<!--Frontend HTML to display message format-->
+
 <div class="message">
+  <!--Profile pic-->
   <a href="" class="message_profile-pic"></a>
+  <!--Username-->
   <a href="" class="message_username"><%= message.user.email %></a>
+  <!--Time stamp-->
   <span class="message_timestamp">
     <%= message.created_at %>
   </span>
-  <span class="message_star"></span>
   <span class="message_content">
     <%= message.content %>
   </span>

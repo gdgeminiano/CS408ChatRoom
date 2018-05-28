@@ -1,5 +1,7 @@
+# Encapsulates surface logic
 class RoomChannel < ApplicationCable::Channel
-  def subscribed
+  # Channel routes published content to subscribers (users) from "room_channel"
+  def subscribed()
      stream_from "room_channel"
   end
 
