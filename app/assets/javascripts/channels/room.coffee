@@ -11,6 +11,7 @@ App.room = App.cable.subscriptions.create "RoomChannel",
     # When a message is recieved add it to the database of messages
     # Rails renders the html for data
     $('#messages').append data
+    # Add scroller
     $('#messages').scrollTop $('#messages').prop('scrollHeight')
 
   speak: (message) ->
