@@ -1,4 +1,4 @@
-# Backend: Encapsulates surface logic
+# Backend: Used for Action Cable and websockets
 # Inherits class ApplicationCable::Channel
 class RoomChannel < ApplicationCable::Channel
   # Channel routes published content to subscribers (users) from "room_channel"

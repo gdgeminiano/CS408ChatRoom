@@ -1,0 +1,15 @@
+Files edited after auto generation: 
+chat\app\assets\javascripts\channels\room.coffee
+chat\app\assets\javascripts\application.js
+chat\app\assets\javascripts\rooms.coffee
+chat\app\assets\stylesheets\rooms.scss
+chat\app\channels\application_cable\connection.rb
+chat\app\channels\room_channel.rb
+chat\app\controllers\rooms_controller.rb
+chat\app\jobs\broadcast_message_job.rb
+chat\app\models\message.rb
+chat\app\views\layouts\application.html.erb
+chat\app\views\messages\_message.html.erb
+chat\config\initializers\warden_hooks.rb
+chat\config\routes.rb
+chat\Gemfile
