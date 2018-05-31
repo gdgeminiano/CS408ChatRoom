@@ -1,4 +1,4 @@
-Files edited after auto generation: 
+Files edited/created after auto generation:
 chat\app\assets\javascripts\channels\room.coffee
 chat\app\assets\javascripts\application.js
 chat\app\assets\javascripts\rooms.coffee

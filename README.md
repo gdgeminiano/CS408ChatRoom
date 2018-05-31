@@ -17,6 +17,8 @@ Installing Rails
 1. Open command prompt anywhere
 2. Run in command line:
     gem install rails
+3. To check if rails installed successfully, run in command line:
+    rails -v
 
 Setting up and running program
 1. Go to Ruby directory
